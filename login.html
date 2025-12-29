@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login | Online Food Ordering</title>
+  <link rel="stylesheet" href="login.css">
+</head>
+<body class="login-body">
+
+<div class="login-card">
+  <h2>🍽️ Login</h2>
+
+  <select id="role">
+    <option value="user">User</option>
+    <option value="admin">Admin</option>
+  </select>
+
+  <input type="text" id="username" placeholder="Username">
+  <input type="password" id="password" placeholder="Password">
+
+  <button onclick="login()">Login</button>
+  <p id="error"></p>
+</div>
+
+<script src="login.js"></script>
+</body>
+</html>
